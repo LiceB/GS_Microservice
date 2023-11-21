@@ -126,3 +126,10 @@ insert into ods(id_objetivo, id_indicadores, codigo, regiao, taxa, ano) values(1
 ```
 
 ## Backend sendo executado no insomnia
+![endpoint objetivos insomnia](https://github.com/LiceB/GS_Microservice/assets/63216833/61956354-2844-40a4-805b-4b69cda9f6d1)
+
+![endpoint indicador insomnia](https://github.com/LiceB/GS_Microservice/assets/63216833/81fc6b81-a637-4af0-bcd0-406d0d0cc091)
+
+![dados rodando no localhost](https://github.com/LiceB/GS_Microservice/assets/63216833/11030202-01d3-4958-b20d-5d9900a0000f)
+
+![dados indicador rodando no localhost](https://github.com/LiceB/GS_Microservice/assets/63216833/1f480ed6-e098-438f-83a5-13b83d057a57)
