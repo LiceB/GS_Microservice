@@ -34,6 +34,24 @@ Para este exemplo é importante deixarmos claro que iremos utilizar uma imagem e
 docker run --name database-mysql -e MYSQL_ROOT_PASSWORD=123 -p 3306:3306 -d mysql
 ```
 
+## Criando volumes para persistir os dados do banco
+
+```
+docker volume create dados-do-banco
+```
+
+```
+docker stop database-mysql
+```
+
+```
+docker rename database-mysql db
+```
+
+```
+docker run --name database-mysql -v /db/data:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=123 -p 3306:3306 -d mysql
+```
+
 ## Instruções para executar o sql
 
 ## Acessar o container e executar um bash
@@ -108,21 +126,3 @@ insert into ods(id_objetivo, id_indicadores, codigo, regiao, taxa, ano) values(1
 ```
 
 ## Backend sendo executado no insomnia
-
-## Criando volumes para persistir os dados do banco
-
-```
-docker volume create dados-do-banco
-```
-
-```
-docker stop database-mysql
-```
-
-```
-docker rename database-mysql db
-```
-
-```
-docker run --name database-mysql -v /db/data:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=123 -p 3306:3306 -d mysql
-```
