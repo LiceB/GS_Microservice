@@ -1,5 +1,11 @@
 # Global Solution “Tecnologia Aplicada à Saúde: Conquistas e Tendências”
 
+## Integrantes do grupo
+
+- Alice Bianchi RM86850
+- Ester Galesso RM89350
+- Guilherme Garcia RM87192
+
 A FIAP se uniu a HAPVIDA para, por meio da tecnologia, promover ações para prevenção de problemas na saúde e melhoria da qualidade de vida.
 
 Rode o seguinte comando para ter acesso aos pacotes node
